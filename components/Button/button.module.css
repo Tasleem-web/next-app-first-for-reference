@@ -1,0 +1,29 @@
+/* .container {
+  padding: 20px;
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  cursor: pointer;
+} */
+.container {
+  background-color: var(--color) !important;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0.2rem 0.2rem 0.5rem rgb(0 0 0 / 20%);
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(0 0 0 / 20%);
+  margin: 0 5px;
+  font-size: 16px;
+  width: auto;
+  padding: 10px 20px;
+}
+
